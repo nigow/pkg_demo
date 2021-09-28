@@ -1,4 +1,12 @@
 {
+  "bin": {
+    "path": "bin/www"
+  },
+  "pkg": {
+    "scripts": ["*.js", "routes/*.js", "bin/."],
+    "assets": ["views/*", "public/stylesheets/*"],
+    "targets": [ "latest-macos-x64" ]
+  },
   "name": "pkg-demo",
   "version": "0.0.0",
   "private": true,
